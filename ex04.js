@@ -6,10 +6,10 @@ let passos = readline.question("Quantos passos você deu hoje? ")
 
 let diferenca = meta - passos
 
-console.log("=============RESULTADO==============\n")
+console.log("=============RESULTADO==============")
 if (passos >= meta) {
     console.log(`Parabéns! Você atingiu sua meta diária de ${meta} passos!`)
 } else {
     console.log(`Você ainda precisa caminhar mais ${Math.abs(diferenca)} passos para atingir sua meta diária de ${meta} passos. Continue se movendo!`)
 }
-console.log("====================================\n")
+console.log("====================================")
